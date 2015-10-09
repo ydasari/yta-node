@@ -1,6 +1,8 @@
 .nav-color {
   background-color: black; }
 
+.logoStyle {
+  width: 85%; }
 
 @media only screen and (min-width: 993px) {
   .registration-container {
@@ -33,9 +35,5 @@
 
 .index-container {
   background: #ff6f00; }
-
-.logo_style {
-  margin-top: 10px; }
-
 
 /*# sourceMappingURL=style.css.map */
