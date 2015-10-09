@@ -5,6 +5,7 @@ var app = express();
 app.use(express.static(__dirname + '/client/js'));
 app.use(express.static(__dirname + '/bower_components'));
 app.use(express.static(__dirname + '/client/views'));
+app.use(express.static(__dirname + '/client/css'));
 app.use(express.static(__dirname + '/client/images'));
 
 app.set("view engine", 'ejs');
